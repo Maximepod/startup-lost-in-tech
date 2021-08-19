@@ -108,17 +108,17 @@ section .subtitle {
   margin: 1rem 0;
 }
 
-.section1 {
+.hero {
   display: flex;
   margin-top: var(--margin-section);
   flex-direction: column;
 }
 
-.section2 {
+.section-startup {
   margin-top: var(--margin-inter-section);
 }
 
-.section2 .text {
+.section-startup .text {
   font-size: 1rem;
   color: var(--neutral-700);
 }
@@ -333,5 +333,42 @@ footer .copyright {
   .hero-text h1, .hero-text p, .hero-text a {
       text-align: left;
       margin: 0.5rem 0;
+  }
+  .section-startup{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6rem;
+  }
+  .section-startup .illustration-startuper{
+    margin: 0;
+    width: min(40%, 500px);
+  }
+  .section-startup-text h2, .section-startup-text p {
+    text-align: left;
+  }
+  .section-startup-text{
+    margin-right: 5rem;
+  }
+  .section-asking{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+  }
+  .section-asking .illustration-asking{
+    margin: 0;
+    width: min(40%, 500px);
+  }
+  .section-asking-text{
+    margin-right: 5rem;
+  }
+  .section-asking-text h2, .section-asking-text p{
+    text-align: left;
+  }
+  .cta{
+    margin-top: 6rem;
   }
 }
