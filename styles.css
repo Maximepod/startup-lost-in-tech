@@ -371,4 +371,14 @@ footer .copyright {
   .cta{
     margin-top: 6rem;
   }
+  .cards{
+    display: flex;
+    flex-direction: row;
+  }
+  .event {
+    margin-top: 4rem;
+  }
+  footer{
+    margin-top: 4rem;
+  }
 }
